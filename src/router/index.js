@@ -5,6 +5,7 @@ import Login from "@/views/Login.vue";
 import Signup from "@/views/Signup.vue";
 import Reserve from "@/views/Reserve.vue";
 import Confirm from "@/views/Confirm.vue";
+import Review from "@/views/Review.vue";
 
 const routes = [
   { path: "/", component: Home },
@@ -12,6 +13,7 @@ const routes = [
   { path: "/signup", component: Signup },
   { path: "/reserve", component: Reserve },
   { path: "/confirm", component: Confirm },
+  { path: "/review", component: Review },
 ];
 
 export default createRouter({
